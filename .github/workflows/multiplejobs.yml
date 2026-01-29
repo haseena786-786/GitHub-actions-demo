@@ -9,7 +9,7 @@ jobs:
            
    test:
      runs-on: ubuntu-latest
-     needs: build
+     needs: build # this is for sequencial build 
      steps:
        - name: test phase
          run: echo "test phase completed"
