@@ -6,7 +6,6 @@ jobs:
      steps:
        - name: Hello step
          run: |
-           echo "welcome to github actions"
-           echo "all the best for your new project"
-           echo "good luck haseena"
+           echo "welcome, ${{vars.MY_NAME}}"
+           
          
